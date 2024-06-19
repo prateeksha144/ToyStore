@@ -1,0 +1,24 @@
+.dropdown_menu 
+{  
+    display: none;
+}
+
+.pratee ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+
+.pratee ul li:hover .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.pratee ul li:hover .dropdown_menu ul li 
+{
+    width: 150px;
+    padding: 10px;
+}
+

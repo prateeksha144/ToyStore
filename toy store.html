@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>TOY STORE</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+        
+
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:  serif;
+        
+        }
+        
+        header{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(backgroundpic3.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+            margin: 25px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color:white;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition:0.6s ease ;
+        }
+        ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        .logo img{
+            float: left;
+            width: 150px;
+            height: auto;
+        }
+        .main{
+            max-width: 2000px;
+            margin: auto;
+        }
+        .title{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .title h1{
+            color:white;
+            font-size: 70px;
+        }
+        .button{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+        .btn{
+            border: 1px solid white;
+            padding: 10px 30px;
+            color: white;
+            text-decoration: none;
+            transition: 0.6 ease;
+        }
+        .btn :hover{
+            background-color: white;
+            color: black;
+
+        }
+
+
+        
+        
+    </style>
+    </head>
+    <body>
+        <header>
+       <div class="pratee">
+        <div class="logo">
+            <img src="hello.png">
+        </div>
+<ul>
+    <li><a href="#">home</a></li>
+    <li><a href="login.html">login</a></li>
+    <li><a href="#">brand <i class="fas fa-caret-down"></i></a>
+        <div class="dropdown_menu">
+            <ul>
+              <li><a href="#">lego</a></li> 
+              <li><a href="#">hamley</a></li>  
+              <li><a href="#">ralleyz</a></li>   
+            </ul>
+
+        </div>
+    </li>
+
+</ul>
+       </div>
+       <div class="title">
+        <h1>TOY STORE</h1>
+       </div>
+       <div class="button">
+        <a href="icon.html" class="btn">SHOP NOW</a>
+       </div>
+        </header>
+    </body>
+</html>

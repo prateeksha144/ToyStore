@@ -1,0 +1,61 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(backgroundpic4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+.menubar
+{
+    background-color:rgb(168, 221, 252) ;
+    text-align: center;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.active, .menubar ul li :hover
+{
+    background: #0fa2f7;
+    border-radius: 3px;
+}
+.menubar .fa
+{
+    margin-right: 8px;
+    
+
+}
+.submenu
+{
+    display: none;
+}
+.menubar ul li :hover .submenu
+{
+display:block ;
+position: absolute;
+background:rgb(168, 221, 252) ;
+margin-top: 15px;
+margin-left: -15px;
+
+}

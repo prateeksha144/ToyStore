@@ -1,0 +1,24 @@
+.dropdown_menu 
+{  
+    display: none;
+}
+
+.menu ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+
+.menu ul li:hover .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .dropdown_menu ul li 
+{
+    width: 150px;
+    padding: 10px;
+}
+
